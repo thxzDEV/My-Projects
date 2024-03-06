@@ -1,0 +1,8 @@
+{
+    "Animais": [
+        {"id": 1, "name": "Faísca", "type": "Cachorro",   "age": 4 },
+        {"id": 2, "name": "Camelinho",   "type": "Camelo",   "age": 10 },
+        {"id": 3, "name": "Leonardo", "type": "Tartaruga",   "age": 40 },
+        {"id": 4, "name": "Jorginho do PNEU",   "type": "Coelho", "age": 6 }
+    ]
+}
