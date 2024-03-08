@@ -8,6 +8,8 @@ import { AppComponent } from './app.component';
 import { FirstPageComponent } from './components/first-page/first-page.component';
 import { SobreComponent } from './components/sobre/sobre.component';
 import { ProjetosComponent } from './components/projetos/projetos.component';
+import { ContatoComponent } from './components/contato/contato.component';
+
 
 
 @NgModule({
@@ -16,6 +18,7 @@ import { ProjetosComponent } from './components/projetos/projetos.component';
     FirstPageComponent,
     SobreComponent,
     ProjetosComponent,
+    ContatoComponent,
   ],
   imports: [
     BrowserModule,

@@ -11794,3 +11794,7 @@ html {
   backdrop-filter: blur(4px);
 }
 
+#email-icon {
+    vertical-align: middle; /* Alinha verticalmente com o texto */
+    margin-right: 5px; /* Adiciona uma margem à direita do ícone para separá-lo do texto */
+}

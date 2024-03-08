@@ -9,7 +9,7 @@
  * Copyright 2011-2022 The Bootstrap Authors
  * Copyright 2011-2022 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
- */
+ */ 
 :root {
   --bs-blue: #1e30f3;
   --bs-indigo: #6610f2;
@@ -11581,7 +11581,7 @@ html {
 .profile-sobre {
   position: relative;
   height: 50vw;
-  width: 20vw;
+  width: 30vw;
   margin: 20px;
   border-radius: 5vw;
   margin-top: 0vw;
@@ -11598,7 +11598,7 @@ html {
 
 .profile-sobre .profile-img {
   height: 40vw;
-  width: 30vw;
+  width: 40vw;
   position: absolute;
   bottom: 0;
   left: 50%;
@@ -11731,20 +11731,30 @@ html {
   background: rgb(255, 255, 255);
   padding: 20px 25px;
   border-radius: 14px;
-  margin-left: 295px;
+  margin-left: 260px;
 }
+@media screen and (max-width: 600px) {
+  .social-card {
+    margin-left: 3px; /* Valor para dispositivos móveis */
+  }
+}
+
 .Btn {
   width: 65px;
   height: 65px;
   display: flex;
-  align-items: center;
-  justify-content: center;
   border: none;
   background-color: transparent;
   position: relative;
   border-radius: 7px;
   cursor: pointer;
   transition: all 0.3s;
+}
+.logoexp {
+  width: 50px;
+  height: auto; 
+  margin-right: 10px; 
+  vertical-align: middle; 
 }
 
 .svgContainer {
